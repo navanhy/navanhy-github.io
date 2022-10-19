@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1><a href="../index.html" class="index_style">FORMULARIOS</a></h1>
+&nbsp;</header>
+<nav>
+  <ul class="menu_nav">
+   <li><a href="formatos_de_texto.html">Formatos texto</a></li>
+    <li><a href="listas.html">Listas</a></li>
+    <li><a href="tablas.html">Tablas</a></li>
+    <li><a href="enlaces.html">Enlaces</a></li>
+    <li><a href="imagenes.html">Imagenes</a></li>
+    <li><a href="audio.html">Audio</a></li>
+    <li><a href="video.html">Video </a></li>
+    <li><a href="formularios.html">Formularios</a></li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Formulario con input de tipo texto y submit</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa minima optio voluptatum provident quibusdam aliquam praesentium est beatae doloremque nesciunt, possimus debitis, voluptate, iste soluta fugit harum quia sequi consectetur odit accusamus sed. Doloribus magni eum quia incidunt autem facilis laudantium quae ad neque similique obcaecati enim reprehenderit, cupiditate sed!</p>
+    <form id="form1" name="form1" method="get" action="">
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" id="nombre">
+      <label for="apellido">Apellido</label>
+      <input type="text" name="apellido" id="apellido">
+      <input name="boton1" type="submit" class="boton_style" id="boton1" value="Enviar">
+      &nbsp;
+    </form>
+    &nbsp;</section>
+  <section>
+    <h2>Formulario con desplegable, radiobutton y checkbox</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi earum sit, deserunt ipsam esse possimus sequi, tempore, officiis facilis et quas cupiditate, ipsum est nesciunt totam libero veniam asperiores. Laborum?</p>
+    <form action="procesamiento.html" method="get" name="form2" id="form2">
+      <label for="pais">País</label>
+      <select name="pais" id="pais">
+        <option value="Mx">México</option>
+        <option value="Esp">España</option>
+        <option value="Eua">Estados Unidos</option>
+        <option value="Arg">Argentina</option>
+        <option value="Col">Colombia</option>
+      </select>
+		<br>
+      <label for="Genero">Genero:</label>
+      <p>
+        <label>
+          <input type="radio" name="genero" value="Fem" id="genero_0">
+        Femenino</label>
+        <br>
+        <label>
+          <input type="radio" name="genero" value="Mas" id="genero_1">
+          Masculino</label>
+        <br>
+        <label>
+          <input type="radio" name="genero" value="Otro" id="genero_2">
+          Otro</label>
+        <br>
+      </p>
+		<br>
+      <label for="Musica">Música preferida:</label>
+	<br>
+      <table width="200">
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Musica" value="rock" id="Musica_0">
+            Rock</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Musica" value="metal" id="Musica_1">
+            Metal</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Musica" value="blues" id="Musica_2">
+            Blues</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Musica" value="jazz" id="Musica_3">
+            Jazz</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="checkbox" name="Musica" value="pop" id="Musica_4">
+            Pop</label></td>
+        </tr>
+      </table>
+<input name="boton2" type="submit" class="boton_style" id="boton_style" value="Enviar">
+      &nbsp;
+    </form>
+    &nbsp;</section>
+  <section>
+    <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor omnis in ad ut ipsum amet pariatur laborum numquam officia quibusdam!</p>
+	<form id="form3" name="form3" method="post">
+	  <label for="email">Email:</label>
+      <input type="email" name="email" id="email">
+		<br><br>
+      <label for="textarea">Comentario:</label>
+		<br>
+      <textarea name="textarea" maxlength="100" class="comentario" id="textarea">Agraga tu comentario aquí</textarea>
+      <br><br>
+	  <input name="boton3" type="submit" class="boton_style" id="boton3" formaction="procesamiento.html" formmethod="GET" value="Enviar">
+      &nbsp;
+	</form>
+  </section>
+  <section>
+    <h2>Formulario de practica</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, adipisci delectus facilis voluptates accusamus itaque suscipit, quis, libero et, in quibusdam veritatis! Necessitatibus suscipit, laboriosam.</p>
+	   <form method="post" name="form1" class="formulario">
+	    
+	    
+	    <label for="textfield">Nombre:</label>
+	    <input name="textfield" type="text" class="box_form" id="textfield">
+	    <br>
+	    <label for="textfield2">Apellidos:</label>
+	    <input name="textfield2" type="text" class="box_form" id="textfield2">
+	    <br>
+	    <label for="email2">Correo electrónico:</label>
+	    <input name="email2" type="email" class="box_form" id="email2">
+	    <br>
+	    <label for="tel">Teléfono:</label>
+	    <input name="tel" type="tel" class="box_form" id="tel">
+	    <br>
+	    <label for="birthday">Fecha de nacimeinto</label>
+	    <input type="date" class="box_form">
+	    <br>
+	    <label for="select">Situación civil</label>
+	    <select name="select" class="box_form" id="select">
+	      <option>Soltero (a)</option>
+	      <option>Casado (a)</option>
+	      <option>Divorsiado (a)</option>
+        </select>
+	    <br>
+	    <label for="curriculum ">CV</label>
+	    <input type="file">
+	    <p>
+	      <label for="Puesto de trabajo">Puesto de trabajo a considerar:</label>
+	      <label> <br>
+	        <input type="radio" name="Puesto de trabajo" value="ven" id="Puestodetrabajo_0">
+	        Ventas</label>
+	      <br>
+	      <label>
+	        <input type="radio" name="Puesto de trabajo" value="cal" id="Puestodetrabajo_1">
+	        Control de calidad</label>
+	      <br>
+	      <label>
+	        <input type="radio" name="Puesto de trabajo" value="con" id="Puestodetrabajo_2">
+	        Contabiliad</label>
+	      <br>
+	      <label>
+	        <input type="radio" name="Puesto de trabajo" value="at cli" id="Puestodetrabajo_3">
+	        Atención al cliente</label>
+	      <br>
+	      <label>
+	        <input type="radio" name="Puesto de trabajo" value="RH" id="Puestodetrabajo_4">
+	        Recursos Humanos</label>
+	      <br>
+	      <label>
+	        <input type="radio" name="Puesto de trabajo" value="Ent" id="Puestodetrabajo_5">
+	        Entregas</label>
+	      <br>
+	      <label>
+	        <input type="radio" name="Puesto de trabajo" value="emp" id="Puestodetrabajo_6">
+	        Empacador</label>
+	      <br>
+        </p>
+	    <label for="Text">¿Por qué debemos contratarle?</label>
+	    <textarea cols="40" rows="3" maxlength="500" class="box_form2">Describa sus cualidades, habilidades y aptitudes y por qué estas son de utilidad para Dunder Miflin</textarea>
+	    <br>
+	    <input type="submit" class="boton_style" id="boton3" formaction="procesamiento.html" formmethod="GET">
+	    
+
+        &nbsp;
+	   </form>
+</form>
+	  &nbsp;
+	  </form>
+    &nbsp;</section>
+  &nbsp;</main>
+<footer>&nbsp;</footer>
+</body>
+</html>

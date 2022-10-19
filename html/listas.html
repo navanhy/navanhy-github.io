@@ -1,0 +1,266 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Listas en HTML</title>
+
+<style type="text/css">
+body header  {
+	height: auto;
+	background-color: #4D97C7;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+header h1 {
+	width: 800px;
+	height: 200px;
+	background-color: #9DD0F0;
+	text-align: center;
+	color: #2F649A;
+	margin-left: auto;
+	margin-right: auto;
+}
+body header, body nav, body main, body footer {
+	width: 1200px;
+}
+body nav {
+	background-color: #1E6D9F;
+	height: 72px;
+}
+body main {
+	background-color: #9DB3C0;
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+body footer {
+	background-color: #9DD0F0;
+	height: 80px;
+}
+* {
+	padding: 0;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+}
+body main section {
+	width: 800px;
+	height: auto;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	background-color: #1269A0;
+	color: #FFFFFF;
+}
+body main section h2 {
+	text-align: center;
+}
+main section ol , main section ul{
+	margin-left: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+body footer h6 {
+	font-size: 30px;
+	text-align: center;
+	padding-top: 10px;
+	color: #1269A0;
+}
+.box_impar {
+	background-color: #36505E;
+}
+#box_unica {
+	background-color: #FB8D8F;
+}
+#lista_1 {
+	list-style-type: none;
+	list-style-image: url(../images/estrella.png);
+}
+#menu {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+#menu li {
+	width: 131px;
+	height: 30px;
+	display: inline-block;
+	margin-left: 3px;
+	margin-right: 20px;
+	text-align: center;
+	color: #EFF8FF;
+	background-color: #9B9C9C;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 10px;
+}
+#menu a:link, #menu a:active, #menu a:visited {
+	color: #0A4064;
+	text-decoration: none;
+	font-weight: bold;
+}
+#menu a:hover {
+	color: #D8640B;
+	text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+	<header>
+	<h1>Listas en HTML</h1>
+	</header>
+	<nav>
+	  <ul id="menu">
+	    <li><a href="formatos_de_texto.html"> Formatos de texto</a></li>
+	    <li><a href="listas.html">Listas</a></li>
+	    <li><a href="enlaces.html">Enlaces </a></li>
+	    <li><a href="tablas.html">Tablas </a></li>
+	    <li><a href="imagenes.html">Imagenes</a></li>
+    	<li><a href="audio.html">Audio</a></li>
+   		 <li><a href="video.html">Video</a></li>
+		  <li><a href="formularios.html">Formularios</a></li>
+	  </ul>
+	</nav>
+	<main>
+	<section class="box_impar">
+	<h2>Lista ordenada</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque neque odio adipisci harum distinctio asperiores. Voluptatibus dolorum non possimus mollitia saepe magnam eveniet commodi, iusto. Error similique in omnis, iure optio quam modi sit nisi impedit corporis quas pariatur veniam sunt velit quidem repellendus nostrum hic id exercitationem beatae quia.</p>
+	
+      <p>Puebla</p>
+	    <p>Zacatecas</p>
+	    <p>Baja California</p>
+	    <p>Guerrero</p>
+	    <p>Guanajuato</p>
+	
+	</section>
+<section>
+	<h2>Lista desordenada</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis natus cum aspernatur laudantium ex, excepturi hic optio laborum maiores cumque quis illo, atque nam minima recusandae dolore harum odio fugiat sequi quod, facilis similique repellat obcaecati id. Doloremque, omnis nemo obcaecati qui ratione nobis. Maiores?</p>
+	<p>México</p>
+	<p>Rusia</p>
+	<p>Italia</p>
+	<p>Argentina</p>
+	</section>
+<section class="box_impar">
+  <h2>Lista mixta</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto rerum atque voluptate molestiae quos aliquid quas tempora earum consequatur esse accusantium a, possimus ea ratione officia, natus sint minus perferendis, eum, porro veritatis aspernatur aperiam.</p>
+  <p>México:
+    </p>
+  <ol>
+    <blockquote>
+      <p>Puebla:</p>
+      <blockquote>
+        <p>Atlixco</p>
+        <p>Tehuacán</p>
+        <p>Zacatlán</p>
+      </blockquote>
+      <p>Tabasco:</p>
+      <blockquote>
+        <p>Villa Hermosa</p>
+        <p>Macuspana</p>
+        <p>La Venta</p>
+      </blockquote>
+      <p>Sonora:</p>
+      <blockquote>
+        <p>Hermosillo</p>
+        <p>Ures</p>
+        <p>Baviácora</p>
+      </blockquote>
+    </blockquote>
+  </ol>
+  <p>Canadá
+    </p>
+  <ol>
+    <blockquote>
+      <p>Alberta:</p>
+      <blockquote>
+        <p>Edmonton</p>
+        <p>Calgary</p>
+        <p>Fort Mcmurray</p>
+      </blockquote>
+      <p>British Columbia:</p>
+      <blockquote>
+        <p>Vancouver</p>
+        <p>Kamloops</p>
+        <p>Fort Nelson</p>
+      </blockquote>
+      <p>Quebec:</p>
+      <blockquote>
+        <p>Quebec</p>
+        <p>Montréal</p>
+        <p>Kuujjuac</p>
+      </blockquote>
+    </blockquote>
+  </ol>
+  <p>Argentina
+    </p>
+  <ol>
+    <blockquote>
+      <p>Buenos Aires:</p>
+      <blockquote>
+        <p> Ciudad Autonóma de Buenos Aires</p>
+        <p>La Plata</p>
+        <p>Bahía Blanca</p>
+      </blockquote>
+      <p>Entre Ríos:</p>
+      <blockquote>
+        <p>Victoria</p>
+        <p>Diamante </p>
+        <p>Tala</p>
+      </blockquote>
+      <p>Córdoba</p>
+      <blockquote>
+        <p>Córdoba</p>
+        <p>Río cuarto</p>
+        <p>Villa María</p>
+      </blockquote>
+    </blockquote>
+  </ol>
+  <p>Colombia:
+    </p>
+  <ol>
+    <blockquote>
+      <p>Santander:</p>
+      <blockquote>
+        <p> Buacaramanga</p>
+        <p>Floridablanca</p>
+        <p>Barrancabermeja</p>
+      </blockquote>
+      <p>Cundinamarca</p>
+      <blockquote>
+        <p>Bogota</p>
+        <p>Facatativá</p>
+        <p>Girardot </p>
+      </blockquote>
+      <p>La Guajira</p>
+      <blockquote>
+        <p>Albania</p>
+        <p>Barrancas</p>
+        <p>Dibulla</p>
+      </blockquote>
+    </blockquote>
+  </ol>
+</section>
+<section id="box_unica">
+  <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet eligendi incidunt recusandae molestiae sed dolore alias, ea deserunt ex iusto cum excepturi fuga nobis modi mollitia dolorem quod amet maxime ab odio eius accusamus omnis laudantium. Animi eligendi molestias molestiae nemo consequatur tenetur distinctio et, totam veritatis perferendis delectus eius velit quo voluptatibus ullam, aspernatur dolorem ex pariatur reiciendis.</p>
+  <p>America</p>
+  <p>Europa</p>
+  <p>Afríca</p>
+  <p>Asia</p>
+  <p>Oceanía</p>
+		</section>
+</main>
+<footer><h6>Elaborado por Navanhy Mendieta Pérez</h6></footer>
+</body>
+
+</html>

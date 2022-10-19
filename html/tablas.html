@@ -1,0 +1,267 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Tablas en HTML</h1>
+</header>
+<nav>
+  <ul id="menu_nav2">
+    <li><a href="formatos_de_texto.html">Formatos de texto </a></li>
+    <li><a href="listas.html">Listas</a></li>
+    <li><a href="enlaces.html">Enlaces</a></li>
+    <li><a href="tablas.html">Tablas</a></li>
+    <li><a href="imagenes.html">Imagenes</a></li>
+    <li><a href="audio.html">Audio</a></li>
+    <li><a href="video.html">Video</a></li>
+	  <li><a href="formularios.html">Formularios</a></li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Tabla Sencilla</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus esse, voluptate tempore neque labore rem saepe distinctio maiores obcaecati quibusdam recusandae et quas accusantium laborum iste architecto accusamus dolorum est tempora atque earum soluta veniam? Nemo reprehenderit repellat aspernatur non, suscipit quas deserunt adipisci qui, obcaecati natus quo ratione, quia cumque quae. Aspernatur omnis perspiciatis eos sint inventore hic, excepturi eum necessitatibus at blanditiis nobis, itaque modi! Dolorem, mollitia! Molestias, deserunt placeat, error veritatis porro facere commodi distinctio doloribus. Maxime sapiente voluptatum voluptatem numquam voluptate asperiores adipisci!</p>
+    <table border="1">
+	  		<thead>
+			  <tr>
+				<th>Nombre</th>
+					<th>Apellidos</th>
+				<th> Telefono</th>
+				  <th>Cooperación</th>
+			  </tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Navanhy</td>
+					<td>Mendieta Pérez</td>
+					<td>246 296 4021</td>
+					<td>$90</td>
+				</tr>
+				<tr>
+					<td>Briseida</td>
+				  <td>Pérez Piñon</td>
+				  <td> 221 656 6588</td>
+					<td>$150</td>
+				</tr>
+				<tr>
+					<td>Lizzette</td>
+					<td>Hernández Hernández</td>
+					<td>222 489 3267</td>
+					<td>$60</td>
+				</tr>
+				<tr>
+					<td>Rodrigo</td>
+					<td>Padilla Alvarez</td>
+					<td>246 798 4216</td>
+					<td>$35</td>
+				</tr>
+				<tr>
+					<td>Aranza</td>
+					<td>Rodriguez Rivera</td>
+					<td>223 469 8499</td>
+					<td>$75</td>
+				</tr>
+		</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="3">Total</td>
+					<td>$410</td>
+				</tr>
+		</tfoot>
+	  </table>
+	</section>
+  <section>
+    <h2>Tabla con estilo CSS</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus esse, voluptate tempore neque labore rem saepe distinctio maiores obcaecati quibusdam recusandae et quas accusantium laborum iste architecto accusamus dolorum est tempora atque earum soluta veniam? Nemo reprehenderit repellat aspernatur non, suscipit quas deserunt adipisci qui, obcaecati natus quo ratione, quia cumque quae. Aspernatur omnis perspiciatis eos sint inventore hic, excepturi eum necessitatibus at blanditiis nobis, itaque modi! Dolorem, mollitia! Molestias, deserunt placeat, error veritatis porro facere commodi distinctio doloribus. Maxime sapiente voluptatum voluptatem numquam voluptate asperiores adipisci!</p>
+    <table width="600" border="5" class="tabla_1">
+     	<thead>
+			<tr>
+          <th scope="col"> Nombre</th>
+          <th scope="col">Edad </th>
+          <th scope="col">Deporte </th>
+          <th scope="col">Cuota </th>
+        </tr>
+		</thead>
+		<tbody>
+        <tr>
+          <td>Navanhy</td>
+          <td>23 </td>
+          <td>Basquetbol </td>
+          <td>$250 </td>
+        </tr>
+        <tr>
+          <td>Briseida </td>
+          <td>23 </td>
+          <td>Voleibol </td>
+          <td>$200 </td>
+        </tr>
+        <tr>
+          <td>Lizzette </td>
+          <td>22 </td>
+          <td>Box </td>
+          <td>$300 </td>
+        </tr>
+        <tr>
+          <td>Rodrigo </td>
+          <td>25 </td>
+          <td>Futbol </td>
+          <td>$250 </td>
+        </tr>
+      </tbody>
+		<tfoot>
+		<tr>
+			<td colspan="3">TOTAL</td>
+			<td>$1,000</td>
+			</tr>
+		</tfoot>
+    </table>
+    &nbsp;</section>
+  <section>
+    <h2>Tabla con cebra en vertical (td)</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus esse, voluptate tempore neque labore rem saepe distinctio maiores obcaecati quibusdam recusandae et quas accusantium laborum iste architecto accusamus dolorum est tempora atque earum soluta veniam? Nemo reprehenderit repellat aspernatur non, suscipit quas deserunt adipisci qui, obcaecati natus quo ratione, quia cumque quae. Aspernatur omnis perspiciatis eos sint inventore hic, excepturi eum necessitatibus at blanditiis nobis, itaque modi! Dolorem, mollitia! Molestias, deserunt placeat, error veritatis porro facere commodi distinctio doloribus. Maxime sapiente voluptatum voluptatem numquam voluptate asperiores adipisci!</p>
+    <table width="600" border="5" id="table_3">
+      <thead>
+        <tr>
+          <th scope="col"> Nombre</th>
+          <th scope="col">Edad </th>
+          <th scope="col">Deporte </th>
+          <th scope="col">Cuota </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Navanhy</td>
+          <td>23 </td>
+          <td>Basquetbol </td>
+          <td>$250 </td>
+        </tr>
+        <tr>
+          <td>Briseida </td>
+          <td>23 </td>
+          <td>Voleibol </td>
+          <td>$200 </td>
+        </tr>
+        <tr>
+          <td>Lizzette </td>
+          <td>22 </td>
+          <td>Box </td>
+          <td>$300 </td>
+        </tr>
+        <tr>
+          <td>Rodrigo </td>
+          <td>25 </td>
+          <td>Futbol </td>
+          <td>$250 </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3" style="background-color: #2A1B14; color: beige">TOTAL</td>
+          <td>$1,000</td>
+        </tr>
+      </tfoot>
+    </table>
+    &nbsp;</section>
+  <section>
+    <h2>Tabla con cebra en horizontal (tr)</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus esse, voluptate tempore neque labore rem saepe distinctio maiores obcaecati quibusdam recusandae et quas accusantium laborum iste architecto accusamus dolorum est tempora atque earum soluta veniam? Nemo reprehenderit repellat aspernatur non, suscipit quas deserunt adipisci qui, obcaecati natus quo ratione, quia cumque quae. Aspernatur omnis perspiciatis eos sint inventore hic, excepturi eum necessitatibus at blanditiis nobis, itaque modi! Dolorem, mollitia! Molestias, deserunt placeat, error veritatis porro facere commodi distinctio doloribus. Maxime sapiente voluptatum voluptatem numquam voluptate asperiores adipisci!</p>
+    <table width="600" border="5" id="table_2">
+      <thead>
+        <tr>
+          <th scope="col"> Nombre</th>
+          <th scope="col">Edad </th>
+          <th scope="col">Deporte </th>
+          <th scope="col">Cuota </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Navanhy</td>
+          <td>23 </td>
+          <td>Basquetbol </td>
+          <td>$250 </td>
+        </tr>
+        <tr>
+          <td>Briseida </td>
+          <td>23 </td>
+          <td>Voleibol </td>
+          <td>$200 </td>
+        </tr>
+        <tr>
+          <td>Lizzette </td>
+          <td>22 </td>
+          <td>Box </td>
+          <td>$300 </td>
+        </tr>
+        <tr>
+          <td>Rodrigo </td>
+          <td>25 </td>
+          <td>Futbol </td>
+          <td>$250 </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">TOTAL</td>
+          <td>$1,000</td>
+        </tr>
+      </tfoot>
+    </table>
+    &nbsp;</section>
+  <section>
+    <h2>Mesa flotante </h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus esse, voluptate tempore neque labore rem saepe distinctio maiores obcaecati quibusdam recusandae et quas accusantium laborum iste architecto accusamus dolorum est tempora atque earum soluta veniam? Nemo reprehenderit repellat aspernatur non, suscipit quas deserunt adipisci qui, obcaecati natus quo ratione, quia cumque quae. Aspernatur omnis perspiciatis eos sint inventore hic, excepturi eum necessitatibus at blanditiis nobis, itaque modi! Dolorem, mollitia! Molestias, deserunt placeat, error veritatis porro facere commodi distinctio doloribus. Maxime sapiente voluptatum voluptatem numquam voluptate asperiores adipisci!</p>
+    <table width="600" border="5" id="tabla_4">
+      <thead>
+        <tr>
+          <th scope="col"> Nombre</th>
+          <th scope="col">Edad </th>
+          <th scope="col">Deporte </th>
+          <th scope="col">Cuota </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Navanhy</td>
+          <td>23 </td>
+          <td>Basquetbol </td>
+          <td>$250 </td>
+        </tr>
+        <tr>
+          <td>Briseida </td>
+          <td>23 </td>
+          <td>Voleibol </td>
+          <td>$200 </td>
+        </tr>
+        <tr>
+          <td>Lizzette </td>
+          <td>22 </td>
+          <td>Box </td>
+          <td>$300 </td>
+        </tr>
+        <tr>
+          <td>Rodrigo </td>
+          <td>25 </td>
+          <td>Futbol </td>
+          <td>$250 </td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">TOTAL</td>
+          <td>$1,000</td>
+        </tr>
+      </tfoot>
+    </table>
+    &nbsp;</section>
+</main>
+<footer>
+  <h6>Elaborado por Navanhy Mendieta Pérez</h6>
+</footer>
+</body>
+</html>
